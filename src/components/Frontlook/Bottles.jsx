@@ -136,7 +136,7 @@ function Bottles({ bottle, value, column, row }) {
                 src={bottle.image}
                 alt={bottle.name}
                 className="w-full max-w-[40%] h-auto object-contain"
-                style={shake ? { animation: "shake 0.5s" } : {}}
+                style={shake ? { animation: "shake 0.5s", transform: `scale(${machineSettings.scale}) rotate(${machineSettings.rotate}deg) translateY(${machineSettings.offsetHeight}px)` } : {}}
               />
             </animated.div>
           </>

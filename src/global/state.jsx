@@ -100,6 +100,9 @@ export const machineSettings = {
   availableRows: 5,
   availableColumns: 6,
   vent: true,
+  scale: 1.2, // default scale value
+  rotate: 30, // default rotation value
+  offsetHeight: 0,
 };
 
 machineSettings.drawerSide = darkenColor(machineSettings.drawerColor, 80);
